@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1400px;
+  text-align: center;
+}
+
+body {
+  margin-top: 5%;
+}
+
+section {
+  width: 60%;
+  margin: auto auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto auto;
+}
+
+h2 {
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+input {
+  height: 30px;
+  background-color: #dda;
+  border-radius: 50px;
+  border: 2px solid #000;
+}
+
+textarea {
+  height: 70px;
+  background-color: #dda;
+  border-radius: 50px;
+  border: 2px solid #000;
+}
+
+button {
+  height: 50px;
+  width: 70%;
+  margin-top: 20px;
+  background-color: #57f;
+  border-radius: 50px;
+  border: 2px solid #000;
+}
+
+.div--cargar {
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.div--consultar {
+  background-color: #aac;
+  padding: 20px;
+}
+
+select {
+  height: 30px;
+  background-color: #dda;
+  border-radius: 50px;
+  border: 2px solid #000;
+}

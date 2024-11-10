@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script async src="segundaEntrega.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div--cargar">
+      <section>
+        <h2>Cargar Producto</h2>
+        <form class="form--ingresar__data">
+          <label>Que producto desea ingresar?</label>
+          <input type="text" class="product" />
+          <label>Cantidad de producto ingresado</label>
+          <input type="number" class="cantIngresada" />
+          <label>Descripcion del producto a ingresar</label>
+          <textarea class="description"></textarea>
+        </form>
+
+        <button class="enviar" onclick="cargarProducto()">Cargar datos</button>
+      </section>
+    </div>
+
+    <br />
+
+    <div class="div--consultar">
+      <section>
+        <h2>Consultar Stock</h2>
+        <form>
+          <select>
+            <option class="options--all">Todos</option>
+            <option class="options--shirt">Remeras</option>
+            <option class="options--pants">Pantalon</option>
+            <option class="options--sweater">Buzos</option>
+            <options class="options--footwear">Calzados</options>
+          </select>
+        </form>
+        <button class="">Consultar</button>
+      </section>
+    </div>
+  </body>
+</html>
